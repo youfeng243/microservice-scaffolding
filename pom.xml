@@ -3,19 +3,19 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.wuhenjian</groupId>
-    <artifactId>microservice-scaffolding</artifactId>
+    <groupId>com.fcbox</groupId>
+    <artifactId>beedance</artifactId>
     <version>1.0</version>
     <packaging>pom</packaging>
 
-    <name>microservice-scaffolding</name>
-    <description>SpringCloud微服务脚手架</description>
+    <name>beedance</name>
+    <description>八字舞微服务</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.1.0.RELEASE</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <!--<relativePath/> &lt;!&ndash; lookup parent from repository &ndash;&gt;-->
     </parent>
 
     <modules>
